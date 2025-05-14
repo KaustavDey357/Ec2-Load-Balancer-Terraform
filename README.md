@@ -89,15 +89,16 @@ terraform destroy
 
 ```
 .
-├── main.tf
-├── variables.tf
-├── outputs.tf
-├── vpc.tf
-├── ec2.tf
-├── alb.tf
-├── security.tf
-├── README.md
-├── .gitignore
+├── main.tf           # Orchestrator: may call modules or glue everything together
+├── variables.tf      # All variable declarations with types and descriptions
+├── outputs.tf        # Output values (e.g., IPs, DNS names, ARNs)
+├── vpc.tf            # VPC, subnets, internet gateway, etc.
+├── ec2.tf            # EC2 instance(s), AMIs, key pairs, EBS volumes
+├── alb.tf            # Application Load Balancer, listeners, target groups
+├── security.tf       # Security groups, network ACLs, firewall rules
+├── README.md         # Project documentation
+├── .gitignore        # Files to exclude from Git (e.g., `.terraform`, `*.tfstate`)
+
 ```
 
 ---
