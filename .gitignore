@@ -1,4 +1,11 @@
+# Local .terraform directories
 .terraform/
+
+# .tfstate files
 *.tfstate
 *.tfstate.backup
-terraform.tfvars
+
+# Crash log files
+crash.log
+
+# Ignore tfvars f
