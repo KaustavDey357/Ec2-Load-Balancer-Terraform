@@ -111,6 +111,23 @@ terraform destroy
 
 ---
 
+## **✅ You can use just one EC2 instance behind a Load Balancer — it's valid and will work.**
+However, in production, it's recommended to use multiple EC2 instances for these reasons:
+
+## 🔄 1. High Availability
+If you only have one instance and it fails, the app becomes unreachable. With multiple instances across different availability zones (AZs), you reduce the risk of downtime.
+
+## 📈 2. Scalability
+The ALB can distribute traffic evenly across multiple instances. As load increases, you can add more instances and handle more requests.
+
+## ⚙️ 3. Better Load Balancer Utility
+Using an ALB with only one target underutilizes it. ALBs are designed for balancing traffic between multiple targets.
+
+## 👨‍🔧 But for development / testing:
+One EC2 behind an ALB is perfectly fine.
+
+It's often done to simulate the setup before going full-scale.
+
 
 
 ## Author
