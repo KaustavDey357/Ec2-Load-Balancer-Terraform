@@ -110,3 +110,16 @@ terraform destroy
 * You can replace user\_data with your own app deployment script.
 
 ---
+
+
+
+## Author
+
+**Kaustav Dey**
+
+* GitHub: [@KaustavDey357](https://github.com/KaustavDey357)
+* LinkedIn: [linkedin.com/in/KaustavDey357](https://www.linkedin.com/in/kaustav-dey-107593244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+* Portfolio: [KaustavDey357.github.io](https://KaustavDey357.github.io)
+
+---
+```
